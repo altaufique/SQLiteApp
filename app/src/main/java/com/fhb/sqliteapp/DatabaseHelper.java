@@ -34,7 +34,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public boolean insertData(String name, String gold, String gold_qty, String fee){
-        SQLiteDatabase db = this.getWritableDatabase();     // Open database. Remember to by calling close()
+        SQLiteDatabase db = this.getWritableDatabase();     // Open database connection. Remember to close by calling close()
 
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2, name);
