@@ -128,4 +128,13 @@
         android:layout_below="@+id/editText_PkgFee"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Package"
+        android:id="@+id/button_GetPkg"
+        android:layout_alignBottom="@+id/button_PkgUpdate"
+        android:layout_toRightOf="@+id/button_PkgUpdate"
+        android:layout_toEndOf="@+id/button_PkgUpdate" />
 </RelativeLayout>
